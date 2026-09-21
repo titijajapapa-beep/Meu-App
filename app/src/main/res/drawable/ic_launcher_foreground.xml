@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Chat bubble container with gradient within 66dp safe zone -->
+    <path
+        android:pathData="M32,32 C32,27.58 35.58,24 40,24 L68,24 C72.42,24 76,27.58 76,32 L76,60 C76,64.42 72.42,68 68,68 L48,68 L36,78 L36,68 C33.79,68 32,66.21 32,64 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="32"
+                android:startY="24"
+                android:endX="76"
+                android:endY="78"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFFF" />
+                <item android:offset="1.0" android:color="#E0E7FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Modern 'D' glyph cut / logo badge inside bubble -->
+    <path
+        android:pathData="M44,35 L52,35 C57.5,35 61.5,38.5 61.5,45 C61.5,51.5 57.5,55 52,55 L44,55 Z M48,39 L48,51 L51.5,51 C54.5,51 57,49 57,45 C57,41 54.5,39 51.5,39 Z"
+        android:fillColor="#4F46E5" />
+    <!-- Online connectivity indicator dot -->
+    <path
+        android:pathData="M70,30 A4,4 0 1 0 70,38 A4,4 0 1 0 70,30 Z"
+        android:fillColor="#10B981" />
+</vector>
+

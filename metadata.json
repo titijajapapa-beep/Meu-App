@@ -1,0 +1,6 @@
+{
+  "name": "Dutra Chat",
+  "description": "Aplicativo de comunicação global com sistema de código de usuário exclusivo, chat em tempo real, chamadas e perfil personalizado.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
